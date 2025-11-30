@@ -111,9 +111,7 @@ export default function PlanPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="relative cursor-grab active:cursor-grabbing"
-            style={{ height: '300px' }}
-            className="md:h-[400px]"
+            className="relative cursor-grab active:cursor-grabbing h-[300px] md:h-[400px]"
             onMouseDown={handleMouseDown}
             onMouseUp={handleMouseUp}
             onMouseLeave={handleMouseUp}

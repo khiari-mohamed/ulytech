@@ -5,8 +5,8 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
   FiSmartphone, FiZap, FiBell, FiInbox, FiMessageSquare, FiCheck,
-  FiCamera, FiEdit3, FiClock, FiDownload, FiArrowRight,
-  FiLayers, FiTrendingUp, FiUsers, FiSettings, FiSun, FiMoon
+  FiCamera, FiClock, FiDownload, FiArrowRight,
+  FiLayers, FiMoon
 } from 'react-icons/fi';
 import { SiAndroid, SiApple } from 'react-icons/si';
 
@@ -44,23 +44,7 @@ export default function MobileAppPage() {
     }
   ];
 
-  const highlights = [
-    {
-      title: 'Ultra-portable',
-      description: 'Interface redessinée pour être légère et performante',
-      icon: FiSmartphone
-    },
-    {
-      title: 'Natif 100%',
-      description: 'Développé en Swift et Kotlin pour une expérience fluide',
-      icon: FiLayers
-    },
-    {
-      title: 'Toujours disponible',
-      description: 'Votre assistant puissant, toujours dans votre poche',
-      icon: FiZap
-    }
-  ];
+
 
   return (
     <div className="min-h-screen">

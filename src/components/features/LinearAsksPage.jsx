@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
-  FiMessageSquare, FiMail, FiZap, FiUsers, FiCheckCircle, FiLock,
+  FiMessageSquare, FiMail, FiUsers, FiCheckCircle, FiLock,
   FiArrowRight, FiCheck, FiSlack, FiInbox, FiSettings, FiTool,
-  FiLifeBuoy, FiCode, FiAlertCircle, FiTrendingUp, FiShield, FiClock
+  FiLifeBuoy, FiCode, FiAlertCircle, FiTrendingUp, FiClock
 } from 'react-icons/fi';
 
 export default function LinearAsksPage() {
