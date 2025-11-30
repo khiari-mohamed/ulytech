@@ -143,8 +143,7 @@ export default function CustomerRequestsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                onHoverStart={() => setHoveredProject(project.id)}
-                onHoverEnd={() => setHoveredProject(null)}
+
                 className="group relative"
               >
                 <div className="bg-gradient-to-br from-white/[0.03] to-white/[0.01] border border-white/[0.08] rounded-2xl overflow-hidden hover:border-purple-500/30 transition-all">

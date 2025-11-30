@@ -34,7 +34,7 @@ export default function AIPage() {
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      icon: FiSettings,
+      icon: FiMessageSquare,
       title: 'Gestion de Systèmes',
       description: 'Automatisation et optimisation des infrastructures',
       color: 'from-purple-500 to-pink-500'

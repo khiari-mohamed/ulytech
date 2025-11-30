@@ -40,7 +40,7 @@ export default function BuildPage() {
         { icon: FiActivity, text: 'Machine Learning' },
         { icon: FiBarChart2, text: 'Analyse prédictive' },
         { icon: FiDatabase, text: 'Big Data' },
-        { icon: FiGitBranch, text: 'Automatisation' }
+        { icon: FiDatabase, text: 'Automatisation' }
       ]
     }
   ];
