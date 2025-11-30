@@ -27,7 +27,9 @@
     ],
     "rules": {
       "no-unused-vars": "warn",
-      "jsx-a11y/anchor-is-valid": "warn"
+      "jsx-a11y/anchor-is-valid": "warn",
+      "no-useless-escape": "warn",
+      "react/jsx-no-comment-textnodes": "warn"
     }
   },
   "browserslist": {
