@@ -18,7 +18,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const location = useLocation();
+
 
   const navItems = [
     { name: 'Produit', href: '/', isRoute: true, hasDropdown: true },

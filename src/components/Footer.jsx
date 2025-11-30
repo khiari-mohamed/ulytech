@@ -52,15 +52,15 @@ export default function Footer() {
             </ul>
 
             <div className="flex space-x-4">
-              <a href="#" className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all">
+              <button className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all" aria-label="LinkedIn">
                 <FiLinkedin className="w-4 h-4 text-white/60" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all">
+              </button>
+              <button className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all" aria-label="GitHub">
                 <FiGithub className="w-4 h-4 text-white/60" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all">
+              </button>
+              <button className="w-9 h-9 rounded-lg bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] flex items-center justify-center transition-all" aria-label="Facebook">
                 <FiFacebook className="w-4 h-4 text-white/60" />
-              </a>
+              </button>
             </div>
           </div>
 

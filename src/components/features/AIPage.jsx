@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
-  FiCpu, FiZap, FiTrendingUp, FiCode, FiDatabase,
-  FiLayers, FiActivity, FiTarget, FiArrowRight, FiCheck,
+  FiCpu, FiZap, FiCode, FiDatabase,
+  FiActivity, FiTarget, FiArrowRight, FiCheck,
   FiMessageSquare, FiShield
 } from 'react-icons/fi';
 
