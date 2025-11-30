@@ -76,8 +76,8 @@ export default function About() {
             À Propos <span className="text-purple-400">de UlyTech</span>
           </h2>
           <p className="text-sm text-white/40 leading-relaxed">
-            Une agence tunisienne deingénierie digitale spécialisée dans les plateformes web haute performance, 
-            les solutions SaaS et les systèmes alimentés par l IA.
+            Une agence tunisienne d'ingénierie digitale spécialisée dans les plateformes web haute performance, 
+            les solutions SaaS et les systèmes alimentés par l'IA.
           </p>
         </motion.div>
 

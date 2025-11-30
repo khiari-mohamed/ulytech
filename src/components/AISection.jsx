@@ -97,7 +97,7 @@ export default function AISection() {
                   
                   {/* AI Typing Animation */}
                   <div className="pl-12 relative">
-                    <div className="text-white/40 mb-1">// AI generating code...</div>
+                    <div className="text-white/40 mb-1">{/* AI generating code... */}</div>
                     <pre className="text-white/70 whitespace-pre-wrap font-mono">
                       {typedCode.split('\n').map((line, i) => (
                         <div key={i}>
