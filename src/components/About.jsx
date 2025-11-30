@@ -34,7 +34,7 @@ const values = [
 const teamMembers = [
   { name: 'Khelil Ben Abdelghani', role: 'PDG et Fondateur', image: '/team/khalil.jpeg', linkedin: 'https://www.linkedin.com/in/khelil/', bio: 'Director of Innovation & Development-UTIC Group | President Commission on Marketing & Advertising @International Chamber of Commerce ICCTunisia | Président Commission Marketing & Communication CCI Tuniso-Française CCITF' },
   { name: 'Safouene Kais', role: 'Gérant', image: '/team/safwen.jpeg', linkedin: 'https://www.linkedin.com/in/kais-safouene-3b7171188/', bio: 'Gérant de 2 sociétés en développement web/mobile et SEO/AEO et AI. CEO @K.M Solutions - Nous aidons les entreprises à booster leur SEO et développement web. Découvrez nos services : kmsolutions.tn' },
-  { name: 'Khiari Mohamed', role: 'Développeur Full-Stack\nJavaScript', image: '/team/DSC-modified.JPG', linkedin: 'https://www.linkedin.com/in/khiari-mohamed-aba313316/', bio: 'Expert en développement logiciel avec 4 ans d\expérience. Spécialisé dans le développement full-stack moderne et l\intégration de solutions d\intelligence artificielle.' }
+  { name: 'Khiari Mohamed', role: 'Développeur Full-Stack\nJavaScript', image: '/team/DSC-modified.JPG', linkedin: 'https://www.linkedin.com/in/khiari-mohamed-aba313316/', bio: "Expert en développement logiciel avec 4 ans d'expérience. Spécialisé dans le développement full-stack moderne et l'intégration de solutions d'intelligence artificielle." }
 ];
 
 export default function About() {
