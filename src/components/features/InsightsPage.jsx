@@ -51,7 +51,7 @@ export default function InsightsPage() {
       price: '49',
       description: 'Pour les petites entreprises',
       features: [
-        'Jusqu\à 1000 transactions/mois',
+        'Jusqu\'à 1000 transactions/mois',
         'Rapprochement automatique',
         'Rapports basiques',
         'Support email',
@@ -65,7 +65,7 @@ export default function InsightsPage() {
       description: 'Pour les entreprises en croissance',
       popular: true,
       features: [
-        'Jusqu\à 10000 transactions/mois',
+        'Jusqu\'à 10000 transactions/mois',
         'Rapprochement avancé avec IA',
         'Rapports personnalisés',
         'Support prioritaire 24/7',

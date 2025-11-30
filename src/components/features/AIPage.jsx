@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import { 
   FiCpu, FiZap, FiTrendingUp, FiCode, FiDatabase,
   FiLayers, FiActivity, FiTarget, FiArrowRight, FiCheck,
-  FiGitBranch, FiSettings, FiMessageSquare, FiShield
+  FiMessageSquare, FiShield
 } from 'react-icons/fi';
 
 export default function AIPage() {

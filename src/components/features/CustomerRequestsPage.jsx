@@ -8,7 +8,6 @@ import {
 } from 'react-icons/fi';
 
 export default function CustomerRequestsPage() {
-  const [hoveredProject, setHoveredProject] = useState(null);
 
   const projects = [
     {

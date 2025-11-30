@@ -5,8 +5,8 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
   FiCode, FiCpu, FiZap, FiTrendingUp, FiLayers, FiDatabase,
-  FiCloud, FiShield, FiActivity, FiBarChart2, FiGitBranch,
-  FiSettings, FiUsers, FiCheckCircle, FiArrowRight
+  FiCloud, FiShield, FiActivity, FiBarChart2,
+  FiUsers, FiCheckCircle, FiArrowRight
 } from 'react-icons/fi';
 import { 
   SiReact, SiNodedotjs, SiPython, SiTensorflow, SiAmazonaws, SiDocker,

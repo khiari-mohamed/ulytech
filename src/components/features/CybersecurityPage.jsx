@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
-  FiShield, FiLock, FiEye, FiAlertTriangle, FiActivity,
-  FiCode, FiZap, FiCheck, FiArrowRight, FiTerminal
+  FiShield, FiLock, FiEye, FiAlertTriangle,
+  FiCode, FiCheck, FiArrowRight, FiTerminal
 } from 'react-icons/fi';
 
 export default function CybersecurityPage() {
