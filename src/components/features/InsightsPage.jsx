@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
-  FiDollarSign, FiTrendingUp, FiCheckCircle, FiZap, FiShield,
-  FiClock, FiBarChart2, FiFileText, FiRefreshCw, FiAlertCircle,
-  FiArrowRight, FiCheck, FiDownload, FiUpload
+  FiDollarSign, FiZap, FiShield,
+  FiBarChart2, FiFileText, FiRefreshCw, FiAlertCircle,
+  FiArrowRight, FiCheck
 } from 'react-icons/fi';
 
 export default function InsightsPage() {
-  const [selectedPlan, setSelectedPlan] = useState('pro');
 
   const features = [
     {
@@ -52,7 +51,7 @@ export default function InsightsPage() {
       price: '49',
       description: 'Pour les petites entreprises',
       features: [
-        'Jusqu\’à 1000 transactions/mois',
+        'Jusqu\à 1000 transactions/mois',
         'Rapprochement automatique',
         'Rapports basiques',
         'Support email',
@@ -66,7 +65,7 @@ export default function InsightsPage() {
       description: 'Pour les entreprises en croissance',
       popular: true,
       features: [
-        'Jusqu\’à 10000 transactions/mois',
+        'Jusqu\à 10000 transactions/mois',
         'Rapprochement avancé avec IA',
         'Rapports personnalisés',
         'Support prioritaire 24/7',
@@ -90,13 +89,6 @@ export default function InsightsPage() {
         'Formation incluse'
       ]
     }
-  ];
-
-  const stats = [
-    { value: '99.8%', label: 'Précision', icon: FiCheckCircle },
-    { value: '10x', label: 'Plus rapide', icon: FiZap },
-    { value: '500+', label: 'Entreprises', icon: FiTrendingUp },
-    { value: '24/7', label: 'Support', icon: FiClock }
   ];
 
   return (
@@ -324,7 +316,7 @@ export default function InsightsPage() {
                 Prêt à automatiser votre comptabilité ?
               </h2>
               <p className="text-white/60 mb-8 text-sm md:text-base">
-                Rejoignez des centaines d'entreprises qui nous font confiance
+                Rejoignez des centaines dentreprises qui nous font confiance
               </p>
               <Link to="/contact">
                 <motion.button

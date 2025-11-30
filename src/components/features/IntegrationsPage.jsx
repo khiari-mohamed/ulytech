@@ -6,10 +6,10 @@ import Footer from '../Footer';
 import { 
   FiGithub, FiSlack, FiMail, FiCode, FiZap, FiCpu, FiMessageSquare,
   FiLayers, FiShield, FiTrendingUp, FiUsers, FiBox, FiGrid,
-  FiArrowRight, FiCheck, FiGitlab, FiDatabase, FiSettings, FiClock,
+  FiArrowRight, FiGitlab, FiDatabase, FiSettings, FiClock,
   FiLock, FiFileText
 } from 'react-icons/fi';
-import { SiNotion, SiFigma, SiOpenai, SiGoogle, SiMicrosoft, SiTrello, SiJira } from 'react-icons/si';
+import { SiNotion, SiFigma, SiOpenai, SiGoogle, SiMicrosoft, SiTrello } from 'react-icons/si';
 
 export default function IntegrationsPage() {
   const [selectedCategory, setSelectedCategory] = useState('essentials');

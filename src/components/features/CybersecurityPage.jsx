@@ -5,8 +5,7 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import { 
   FiShield, FiLock, FiEye, FiAlertTriangle, FiActivity,
-  FiServer, FiCode, FiZap, FiCheck, FiArrowRight,
-  FiTarget, FiCpu, FiDatabase, FiTerminal
+  FiCode, FiZap, FiCheck, FiArrowRight, FiTerminal
 } from 'react-icons/fi';
 
 export default function CybersecurityPage() {
@@ -62,12 +61,7 @@ export default function CybersecurityPage() {
     'Analyse forensique et réponse aux incidents'
   ];
 
-  const stats = [
-    { value: '99.9%', label: 'Uptime', icon: FiActivity },
-    { value: '<1min', label: 'Temps de réponse', icon: FiZap },
-    { value: '24/7', label: 'Surveillance', icon: FiEye },
-    { value: '100%', label: 'Conformité', icon: FiCheck }
-  ];
+
 
   const tools = [
     'Kali Linux', 'Metasploit', 'Burp Suite', 'Wireshark',
