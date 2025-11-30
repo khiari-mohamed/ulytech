@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FiMail, FiLock, FiArrowRight } from 'react-icons/fi';
+
 import api from '../api';
 
 export default function LoginPage() {
@@ -91,9 +91,9 @@ export default function LoginPage() {
                 <input type="checkbox" className="mr-1.5" />
                 Se souvenir
               </label>
-              <a href="#" className="text-purple-400 hover:text-purple-300">
+              <button type="button" className="text-purple-400 hover:text-purple-300">
                 Mot de passe oublié?
-              </a>
+              </button>
             </div>
 
             <motion.button

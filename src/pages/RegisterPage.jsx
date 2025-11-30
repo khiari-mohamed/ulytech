@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FiMail, FiLock, FiUser, FiArrowRight } from 'react-icons/fi';
+
 import api from '../api';
 
 export default function RegisterPage() {
@@ -125,13 +125,13 @@ export default function RegisterPage() {
                 <input type="checkbox" className="mr-1.5 mt-0.5" required />
                 <span>
                   J'accepte les{' '}
-                  <a href="#" className="text-purple-400 hover:text-purple-300">
+                  <Link to="/terms-of-service" className="text-purple-400 hover:text-purple-300">
                     conditions
-                  </a>{' '}
+                  </Link>{' '}
                   et la{' '}
-                  <a href="#" className="text-purple-400 hover:text-purple-300">
+                  <Link to="/privacy-policy" className="text-purple-400 hover:text-purple-300">
                     politique
-                  </a>
+                  </Link>
                 </span>
               </label>
             </div>
