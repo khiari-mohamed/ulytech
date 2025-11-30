@@ -185,7 +185,7 @@ export default function Navbar() {
                 className="flex items-center space-x-1.5 px-4 py-1.5 bg-white text-darkBg rounded-md font-medium text-[15px] hover:bg-white/90 transition-all duration-150"
               >
                 <FiUserPlus className="w-[15px] h-[15px]" />
-                <span>S'inscrire</span>
+                <span>S inscrire</span>
               </motion.button>
             </Link>
           </div>
@@ -301,7 +301,7 @@ export default function Navbar() {
               <Link to="/register" className="flex-1">
                 <button className="w-full px-5 py-3 bg-white text-darkBg rounded-lg font-semibold text-sm hover:bg-white/90 transition-all flex items-center justify-center space-x-2">
                   <FiUserPlus className="w-4 h-4" />
-                  <span>S'inscrire</span>
+                  <span>S inscrire</span>
                 </button>
               </Link>
             </div>

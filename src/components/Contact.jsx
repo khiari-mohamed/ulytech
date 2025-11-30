@@ -205,7 +205,7 @@ export default function Contact() {
 
             {/* Business Hours */}
             <div className="glass-card p-8">
-              <h3 className="text-xl font-bold mb-6 tracking-tight">Horaires d'Ouverture</h3>
+              <h3 className="text-xl font-bold mb-6 tracking-tight">Horaires de Ouverture</h3>
               
               <div className="space-y-3 text-white/70">
                 <div className="flex justify-between">

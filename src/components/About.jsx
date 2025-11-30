@@ -34,7 +34,7 @@ const values = [
 const teamMembers = [
   { name: 'Khelil Ben Abdelghani', role: 'PDG et Fondateur', image: '/team/khalil.jpeg', linkedin: 'https://www.linkedin.com/in/khelil/', bio: 'Director of Innovation & Development-UTIC Group | President Commission on Marketing & Advertising @International Chamber of Commerce ICCTunisia | Président Commission Marketing & Communication CCI Tuniso-Française CCITF' },
   { name: 'Safouene Kais', role: 'Gérant', image: '/team/safwen.jpeg', linkedin: 'https://www.linkedin.com/in/kais-safouene-3b7171188/', bio: 'Gérant de 2 sociétés en développement web/mobile et SEO/AEO et AI. CEO @K.M Solutions - Nous aidons les entreprises à booster leur SEO et développement web. Découvrez nos services : kmsolutions.tn' },
-  { name: 'Khiari Mohamed', role: 'Développeur Full-Stack\nJavaScript', image: '/team/DSC-modified.JPG', linkedin: 'https://www.linkedin.com/in/khiari-mohamed-aba313316/', bio: 'Expert en développement logiciel avec 4 ans d\'expérience. Spécialisé dans le développement full-stack moderne et l\'intégration de solutions d\'intelligence artificielle.' }
+  { name: 'Khiari Mohamed', role: 'Développeur Full-Stack\nJavaScript', image: '/team/DSC-modified.JPG', linkedin: 'https://www.linkedin.com/in/khiari-mohamed-aba313316/', bio: 'Expert en développement logiciel avec 4 ans d\expérience. Spécialisé dans le développement full-stack moderne et l\intégration de solutions d\intelligence artificielle.' }
 ];
 
 export default function About() {
@@ -57,11 +57,11 @@ export default function About() {
           className="lg:hidden max-w-5xl mx-auto mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-4">
-            À Propos <span className="text-purple-400">d'UlyTech</span>
+            À Propos <span className="text-purple-400">de UlyTech</span>
           </h2>
           <p className="text-sm text-white/40 leading-relaxed">
-            Une agence tunisienne d'ingénierie digitale spécialisée dans les plateformes web haute performance, 
-            les solutions SaaS et les systèmes alimentés par l'IA.
+            Une agence tunisienne de ingénierie digitale spécialisée dans les plateformes web haute performance, 
+            les solutions SaaS et les systèmes alimentés par l IA.
           </p>
         </motion.div>
         
@@ -73,11 +73,11 @@ export default function About() {
           className="hidden lg:flex max-w-5xl mx-auto mb-12 items-center gap-8"
         >
           <h2 className="text-6xl font-semibold tracking-tight text-white whitespace-nowrap">
-            À Propos <span className="text-purple-400">d'UlyTech</span>
+            À Propos <span className="text-purple-400">de UlyTech</span>
           </h2>
           <p className="text-sm text-white/40 leading-relaxed">
-            Une agence tunisienne d'ingénierie digitale spécialisée dans les plateformes web haute performance, 
-            les solutions SaaS et les systèmes alimentés par l'IA.
+            Une agence tunisienne deingénierie digitale spécialisée dans les plateformes web haute performance, 
+            les solutions SaaS et les systèmes alimentés par l IA.
           </p>
         </motion.div>
 
@@ -121,7 +121,7 @@ export default function About() {
             <FiTarget className="w-8 h-8 text-purple-400 mb-6" />
             <h3 className="text-2xl font-medium mb-3 text-white">Notre Mission</h3>
             <p className="text-white/40 leading-relaxed text-[15px]">
-              Donner aux entreprises les moyens d'agir avec des solutions digitales intelligentes, fiables et innovantes 
+              Donner aux entreprises les moyens d agir avec des solutions digitales intelligentes, fiables et innovantes 
               qui transforment leur façon de fonctionner. Nous comblons le fossé entre la technologie complexe 
               et le succès commercial.
             </p>
@@ -137,9 +137,9 @@ export default function About() {
             <FiEye className="w-8 h-8 text-purple-400 mb-6" />
             <h3 className="text-2xl font-medium mb-3 text-white">Notre Vision</h3>
             <p className="text-white/40 leading-relaxed text-[15px]">
-              Devenir un leader régional dans les solutions digitales augmentées par l'IA, en créant des outils 
+              Devenir un leader régional dans les solutions digitales augmentées par l IA, en créant des outils 
               qui aident les entreprises à accomplir davantage avec la technologie tout en maintenant les plus hauts 
-              standards de qualité et d'innovation.
+              standards de qualité et de innovation.
             </p>
           </motion.div>
         </div>

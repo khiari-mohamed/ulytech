@@ -16,7 +16,7 @@ export default function TermsOfService() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Conditions d'Utilisation
+              Conditions de Utilisation
             </h1>
             <p className="text-white/50 text-sm">
               Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -33,8 +33,8 @@ export default function TermsOfService() {
               <section>
                 <h2 className="text-2xl font-bold text-white mb-4">1. Acceptation des Conditions</h2>
                 <p className="leading-relaxed mb-4">
-                  En accédant et en utilisant les services d'Ulytech, vous acceptez d'être lié par ces conditions d'utilisation. 
-                  Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.
+                  En accédant et en utilisant les services de Ulytech, vous acceptez de être lié par ces conditions de utilisation. 
+                  Si vous ne acceptez pas ces conditions, veuillez ne pas utiliser nos services.
                 </p>
               </section>
 
@@ -44,8 +44,8 @@ export default function TermsOfService() {
                   Ulytech fournit des solutions technologiques innovantes incluant :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Développement d'applications web et mobile</li>
-                  <li>Solutions d'intelligence artificielle</li>
+                  <li>Développement de applications web et mobile</li>
+                  <li>Solutions de intelligence artificielle</li>
                   <li>Services de rapprochement bancaire automatisé</li>
                   <li>Gestion de projets et support technique</li>
                   <li>Intégrations avec des outils tiers</li>
@@ -73,7 +73,7 @@ export default function TermsOfService() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Utiliser nos services à des fins illégales ou non autorisées</li>
-                  <li>Tenter d'accéder de manière non autorisée à nos systèmes</li>
+                  <li>Tenter de accéder de manière non autorisée à nos systèmes</li>
                   <li>Interférer avec le fonctionnement normal de nos services</li>
                   <li>Transmettre des virus ou codes malveillants</li>
                   <li>Violer les droits de propriété intellectuelle</li>
@@ -84,7 +84,7 @@ export default function TermsOfService() {
                 <h2 className="text-2xl font-bold text-white mb-4">5. Propriété Intellectuelle</h2>
                 <p className="leading-relaxed mb-4">
                   Tous les contenus, marques, logos et propriétés intellectuelles présents sur nos services sont 
-                  la propriété d'Ulytech ou de ses concédants de licence. Toute utilisation non autorisée est strictement interdite.
+                  la propriété de Ulytech ou de ses concédants de licence. Toute utilisation non autorisée est strictement interdite.
                 </p>
               </section>
 
@@ -106,15 +106,15 @@ export default function TermsOfService() {
                 <h2 className="text-2xl font-bold text-white mb-4">7. Limitation de Responsabilité</h2>
                 <p className="leading-relaxed mb-4">
                   Ulytech ne sera pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs 
-                  résultant de l'utilisation ou de l'impossibilité d'utiliser nos services.
+                  résultant de le utilisation ou de le impossibilité de utiliser nos services.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold text-white mb-4">8. Garanties</h2>
                 <p className="leading-relaxed mb-4">
-                  Nos services sont fournis "en l'état" sans garantie d'aucune sorte. Nous ne garantissons pas 
-                  que nos services seront ininterrompus, sécurisés ou exempts d'erreurs.
+                  Nos services sont fournis "en le état" sans garantie de aucune sorte. Nous ne garantissons pas 
+                  que nos services seront ininterrompus, sécurisés ou exempts de erreurs.
                 </p>
               </section>
 
@@ -145,7 +145,7 @@ export default function TermsOfService() {
               <section>
                 <h2 className="text-2xl font-bold text-white mb-4">12. Contact</h2>
                 <p className="leading-relaxed mb-4">
-                  Pour toute question concernant ces conditions d'utilisation, veuillez nous contacter à :
+                  Pour toute question concernant ces conditions de utilisation, veuillez nous contacter à :
                 </p>
                 <div className="bg-white/[0.05] border border-white/[0.08] rounded-xl p-6 mt-4">
                   <p className="text-white font-medium mb-2">Ulytech</p>

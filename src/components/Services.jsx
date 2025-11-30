@@ -107,7 +107,7 @@ export default function Services() {
               Nos <span className="gradient-text">Services</span>
             </h2>
             <p className="text-lg md:text-xl text-white/70 mb-6 leading-relaxed max-w-xl">
-              Nous fournissons des solutions digitales complètes qui stimulent l'innovation et la croissance pour les entreprises de toutes tailles.
+              Nous fournissons des solutions digitales complètes qui stimulent linnovation et la croissance pour les entreprises de toutes tailles.
             </p>
 
             {/* Scrollable Services List */}

@@ -110,7 +110,7 @@ export default function LoginPage() {
           <div className="mt-6 text-center text-white/40 text-xs">
             Pas encore de compte?{' '}
             <Link to="/register" className="text-purple-400 hover:text-purple-300">
-              S'inscrire
+              Se inscrire
             </Link>
           </div>
         </div>

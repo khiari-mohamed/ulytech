@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiMapPin, FiArrowUp, FiLinkedin, FiGithub, FiFacebook } from 'react-icons/fi';
+import { FiArrowUp, FiLinkedin, FiGithub, FiFacebook } from 'react-icons/fi';
 
 export default function Footer() {
   const scrollToTop = () => {

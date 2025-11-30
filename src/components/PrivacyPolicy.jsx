@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
                 <h3 className="text-xl font-semibold text-white mb-3">2.2 Données collectées automatiquement</h3>
                 <p className="text-white/70 leading-relaxed">
                   Nous collectons automatiquement certaines informations techniques telles que votre adresse IP, 
-                  type de navigateur, système d'exploitation, pages visitées et durée de visite.
+                  type de navigateur, système d exploitation, pages visitées et durée de visite.
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ export default function PrivacyPolicy() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4">
-                    <h4 className="text-white font-medium mb-2">Droit d'accès</h4>
+                    <h4 className="text-white font-medium mb-2">Droit d accès</h4>
                     <p className="text-white/60 text-sm">Accéder à vos données personnelles</p>
                   </div>
                   <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4">
@@ -246,7 +246,7 @@ export default function PrivacyPolicy() {
                     <p className="text-white/60 text-sm">Corriger vos données inexactes</p>
                   </div>
                   <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4">
-                    <h4 className="text-white font-medium mb-2">Droit à l'effacement</h4>
+                    <h4 className="text-white font-medium mb-2">Droit à l effacement</h4>
                     <p className="text-white/60 text-sm">Supprimer vos données personnelles</p>
                   </div>
                   <div className="bg-white/[0.03] border border-white/[0.08] rounded-xl p-4">
@@ -301,7 +301,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">10. Nous Contacter</h2>
                 <p className="text-white/70 leading-relaxed mb-6">
                   Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, 
-                  n'hésitez pas à nous contacter :
+                  nhésitez pas à nous contacter :
                 </p>
                 <div className="bg-gradient-to-br from-[#5E30B5]/10 to-[#8B5CF6]/10 border border-[#5E30B5]/30 rounded-2xl p-8">
                   <h3 className="text-white font-bold text-xl mb-4">Ulytech</h3>

@@ -104,7 +104,7 @@ export default function BuildPage() {
           >
             <p className="text-xs md:text-sm text-white/40 mb-3 md:mb-4 tracking-wider uppercase">ulytech Solutions</p>
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold text-white mb-4 md:mb-6 tracking-tight leading-tight">
-              Construisez l'avenir avec<br /><span className="text-purple-400">nos solutions digitales</span>
+              Construisez le avenir avec<br /><span className="text-purple-400">nos solutions digitales</span>
             </h1>
             <p className="text-sm md:text-lg text-white/50 max-w-3xl mx-auto px-4">
               Développement web moderne et intelligence artificielle<br className="hidden sm:block" />pour transformer votre entreprise
@@ -315,8 +315,8 @@ export default function BuildPage() {
                     <div className="p-4 font-mono text-xs md:text-sm space-y-2">
                       {solution.id === 'web' ? (
                         <>
-                          <div><span className="text-purple-400">import</span> <span className="text-white/70">React</span> <span className="text-purple-400">from</span> <span className="text-orange-300">'react'</span>;</div>
-                          <div><span className="text-purple-400">import</span> <span className="text-white/70">{'{ '}</span><span className="text-blue-300">useState</span><span className="text-white/70">{' }'}</span> <span className="text-purple-400">from</span> <span className="text-orange-300">'react'</span>;</div>
+                          <div><span className="text-purple-400">import</span> <span className="text-white/70">React</span> <span className="text-purple-400">from</span> <span className="text-orange-300">react</span>;</div>
+                          <div><span className="text-purple-400">import</span> <span className="text-white/70">{'{ '}</span><span className="text-blue-300">useState</span><span className="text-white/70">{' }'}</span> <span className="text-purple-400">from</span> <span className="text-orange-300">react</span>;</div>
                           <div className="text-white/30"></div>
                           <div><span className="text-purple-400">const</span> <span className="text-blue-300">Dashboard</span> <span className="text-white/70">= () =&gt; {'{'}</span></div>
                           <div className="pl-4"><span className="text-purple-400">const</span> [<span className="text-blue-300">data</span>, <span className="text-blue-300">setData</span>] = <span className="text-blue-300">useState</span>([]);</div>

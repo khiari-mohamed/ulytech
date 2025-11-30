@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function AISection() {
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -29,7 +29,7 @@ export default function AISection() {
     }, 60);
     
     return () => clearInterval(typingInterval);
-  }, []);
+  }, [codeToType]);
 
   return (
     <section className="py-32 relative overflow-hidden">
@@ -75,10 +75,10 @@ export default function AISection() {
               <div className="backdrop-blur-xl bg-darkBg/90 border-x border-b border-white/10 rounded-b-xl p-6 font-mono text-sm overflow-hidden">
                 <div className="space-y-2">
                   <div className="text-purple-400">
-                    <span className="text-pink-400">import</span> React <span className="text-pink-400">from</span> <span className="text-green-400">'react'</span>;
+                    <span className="text-pink-400">import</span> React <span className="text-pink-400">from</span> <span className="text-green-400">react</span>;
                   </div>
                   <div className="text-purple-400">
-                    <span className="text-pink-400">import</span> {'{ useState }'} <span className="text-pink-400">from</span> <span className="text-green-400">'react'</span>;
+                    <span className="text-pink-400">import</span> {'{ useState }'} <span className="text-pink-400">from</span> <span className="text-green-400">react</span>;
                   </div>
                   <div className="h-4" />
                   <div className="text-blue-400">
@@ -160,7 +160,7 @@ export default function AISection() {
               Développement Assisté par <span className="gradient-text">IA</span>
             </h2>
             <p className="text-lg md:text-xl text-white/70 mb-8 leading-relaxed">
-              Linear pour les Agents. Choisissez parmi une variété d'agents IA et commencez à déléguer le travail, de la génération de code aux autres tâches techniques.
+              Linear pour les Agents. Choisissez parmi une variété de agents IA et commencez à déléguer le travail, de la génération de code aux autres tâches techniques.
             </p>
 
             <motion.button

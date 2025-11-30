@@ -98,7 +98,7 @@ export default function AIPage() {
             </motion.div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight">
-              L'IA qui révolutionne<br />
+              Le IA qui révolutionne<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                 le développement tunisien
               </span>
@@ -471,7 +471,7 @@ export default function AIPage() {
               </div>
 
               <p className="text-white/70 text-sm md:text-base lg:text-lg mb-6 md:mb-8 leading-relaxed">
-                <span className="text-white font-semibold">Punika AI</span> est le premier modèle d'intelligence artificielle tunisien 
+                <span className="text-white font-semibold">Punika AI</span> est le premier modèle de intelligence artificielle tunisien 
                 qui met la Tunisie sur la carte des pays ayant leur propre modèle AI avancé. Une IA qui comprend parfaitement 
                 le <span className="text-green-400 font-semibold">dialecte tunisien</span>, conçue pour révolutionner la manière dont 
                 les entreprises tunisiennes interagissent avec la technologie.
@@ -499,7 +499,7 @@ export default function AIPage() {
                   whileTap={{ scale: 0.95 }}
                   className="px-4 md:px-6 py-2 md:py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all shadow-lg shadow-purple-500/50 text-sm md:text-base"
                 >
-                  Rejoindre la liste d'attente
+                  Rejoindre la liste de attente
                 </motion.button>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
@@ -562,10 +562,10 @@ export default function AIPage() {
             <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-pink-500/5 blur-3xl"></div>
             <div className="relative z-10">
               <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
-                Prêt à intégrer l'IA ?
+                Prêt à intégrer l IA ?
               </h2>
               <p className="text-white/60 mb-8 text-sm md:text-base">
-                Transformez votre entreprise avec nos solutions d'intelligence artificielle
+                Transformez votre entreprise avec nos solutions de intelligence artificielle
               </p>
               <Link to="/contact">
                 <motion.button
